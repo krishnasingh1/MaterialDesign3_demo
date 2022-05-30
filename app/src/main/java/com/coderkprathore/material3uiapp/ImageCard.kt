@@ -36,7 +36,7 @@ fun ImageCard(
                model = "https://picsum.photos/seed/${Random.nextInt()}/300/200" ) ,
            contentDescription = null,
             modifier = modifier
-                .clip(MaterialTj5heme.shapes.large)
+                .clip(MaterialTheme.shapes.large)
                 .fillMaxWidth()
                 .aspectRatio(3f / 2f))
 
